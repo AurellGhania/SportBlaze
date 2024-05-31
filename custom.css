@@ -1,0 +1,141 @@
+.masthead{
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: #fff;
+    height: 80px;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #FF2603;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.login-button{
+    background-color: #FF2603;
+    color: white;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 54px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover {
+    background-color: #ff644d;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+}
+.navbar-toggler:focus, .btn-close:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #525252;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover .nav-link.active{
+    color: #020202;
+
+}
+
+/* @media (min-widht: 991px){
+    
+} */
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 0;
+    height: 4px;
+    background-color: #FF2603;
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link.active::before{
+    width: 100%;
+    visibility: visible;
+}
+
+/* End Navbar */
+
+/* Hero Section */
+
+.hero-section{
+    background: url(images/background-part-1.png)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.hero-section .container{
+     height: 100vh;
+     z-index: 1;
+     position: relative;
+}
+
+.hero-section h1{
+    font-size: 1.8rem;
+}
+
+.hero-section h2{
+    font-size: 1.5rem;
+}
+
+.hero-section .white-rectangle {
+    position: absolute; /* Position relative to container */
+    bottom: -50px; /* Place it 50px below the container */
+    left: 50%; /* Center the rectangle horizontally */
+    transform: translateX(-50%); /* Offset the left position to center it */
+    width: 80%; /* Set the width to 80% of the container */
+    height: 60%; /* Set the height of the rectangle */
+    background-color: white;
+    border-radius: 1.9rem; /* Add rounded corners with 10px radius */
+    z-index: 1; /* Place the rectangle on top of the image */
+    display: flex; /* Make the rectangle a flex container for text alignment */
+    justify-content: space-between; /* Distribute text evenly within the rectangle */
+    padding: 5%;
+
+  }
+
+/* End Hero Section */
+
+/* Trending Section */
+
+.trending-section .text-trending{
+    margin-right: 1rem;
+    color: #020202;
+}
+
+/* End Section */
