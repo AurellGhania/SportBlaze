@@ -1,3 +1,14 @@
+:root{
+    --color: #e23232;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color : #fff;
+    color: #020202;
+    letter-spacing: 1px;
+  }
+
 .masthead{
     background-size: cover;
     min-height: 80vh;
@@ -14,6 +25,8 @@
     margin: 30px;
     border-radius: 20px;
     padding: 1rem;
+    box-shadow: 0 0 1rem var(--color);
+
 }
 
 .navbar-brand {
@@ -131,11 +144,48 @@
 
 /* End Hero Section */
 
-/* Trending Section */
+/* Hero Section Detail*/
 
-.trending-section .text-trending{
-    margin-right: 1rem;
-    color: #020202;
+.hero-section-detail{
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    border-radius: 2rem;
 }
 
+.p-tanggal{
+    margin-top: -1rem;
+}
+
+.profile-trending{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.margin-left{
+    margin-left: -4rem;
+}
+
+.line{
+    margin-top: 10rem;
+}
+.line-trending{
+    margin-top: 3rem;
+    color: #525252;
+}
+
+
+
+/* End Hero Section Detail*/
+
+
+
+/* Trending Section */
+
+
+
 /* End Section */
+
+/* Section Slide */
+
+/* End Section Slide */
