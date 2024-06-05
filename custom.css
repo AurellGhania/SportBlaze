@@ -170,10 +170,22 @@ body {
     margin-top: 10rem;
 }
 .line-trending{
-    margin-top: 3rem;
+    margin-top: 1.5rem;
     color: #525252;
 }
 
+.like{
+    margin-left: 8em;
+}
+
+#trending-section {
+    height: 100vh;
+    padding: 75 45 75 75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem;
+}
 
 
 /* End Hero Section Detail*/
@@ -189,3 +201,127 @@ body {
 /* Section Slide */
 
 /* End Section Slide */
+
+
+
+/* CUSTOMER SECTION */
+.customer {
+    background: url(images/bg-customer.jpg)no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;    font-family: poppins;
+    padding-right: 10rem;
+    padding-left: 14rem;
+    padding-top: 100px;
+  }
+  
+
+  
+  .text-customer p {
+    color: var(--green-text-color);
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .text-customer h2 {
+    color: var(--black-text-color);
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 499px;
+  }
+  
+  .text-customer h6 {
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: pre-line;
+  }
+  
+  .button {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  
+  .up {
+    animation: up 1600ms infinite ease-in-out;
+    width: 350px;
+    height: 210px;
+    border-radius: 18px;
+    background: #fff;
+  }
+  
+  .down {
+    animation: down 1600ms infinite ease-in-out;
+    width: 350px;
+    height: 210px;
+    border-radius: 18px;
+    background: #fff;
+  }
+  
+  @keyframes up {
+    0% {
+      transform: translateY(60px);
+    }
+    70% {
+      transform: translateY(-60px);
+    }
+    100% {
+      transform: translateY(60px);
+    }
+  }
+  
+  @keyframes down {
+    0% {
+      transform: translateY(-60px);
+    }
+    70% {
+      transform: translateY(60px);
+    }
+    100% {
+      transform: translateY(-70px);
+    }
+  }
+  
+  /* .card-up {
+    margin-left: -160px;
+  } */
+  
+  .card-body {
+    padding: 20px 30px 20px 30px;
+  }
+  
+  .card-body h5 {
+    color: var(--black-text-color);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  .card-body p {
+    color: #484b5c;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  .name {
+    margin-left: 15px;
+    margin-top: 2px;
+  }
+  
+  .name h6 {
+    color: var(--green-text-color);
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .name p {
+    color: var(--grey-text-color);
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: -9px;
+  }
